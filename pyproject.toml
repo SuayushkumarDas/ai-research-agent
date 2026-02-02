@@ -1,0 +1,16 @@
+[project]
+name = "ai-researcher"
+version = "0.1.0"
+description = "ChatGPT-like AI Research Agent with arXiv and PDF support"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests>=2.32.5",
+    "PyPDF2>=3.0.1",
+    "langchain>=0.2.0",
+    "langchain-openai>=0.1.0",
+    "faiss-cpu>=1.7.4",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.27.0",
+]
